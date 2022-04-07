@@ -10,6 +10,7 @@ const createTuit = (req, res) => {
   newTuit.comments = 0;
   newTuit.retuits = 0;
   newTuit.dislikes = 0;
+  newTuit.handle = "DanaGajewski"
   newTuit.time = new Date();
   newTuit.avatar_image= "https://s3.amazonaws.com/images.berecruited.com/photos/athletes/dashboard/3817216.png?1494963118"
 
